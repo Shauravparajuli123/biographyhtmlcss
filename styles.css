@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fullpage {
+  border: 10px solid navy;
+  height: 850px;
+  width: 700px;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pic {
+  margin: 100px 50px;
+
+}
+
+.pic img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+
+}
+
+.name {
+  margin-top: 240px;
+  margin-left: 200px;
+}
+
+.text {
+  margin-top: -20px;
+  margin-left: 13px;
+}
+
+.lists {
+  margin-left: 20px;
+}
+
+.footer {
+  margin-top: 100px;
+  margin-left: 500px;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+a:hover {
+  background-color: yellow;
+}
